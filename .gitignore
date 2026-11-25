@@ -1,0 +1,58 @@
+# ==============================================================================
+# Python & Bytecode
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+ai/
+.testenv/
+.test-temp/
+
+# ==============================================================================
+# Django Secrets, Database & Runtime
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.log
+local_settings.py
+
+# ==============================================================================
+# Media & Uploads (exclude user uploads while keeping clean samples)
+# ==============================================================================
+media/resumes/*
+!media/resumes/Ankush_Baghel_Resume-3_1.pdf
+!media/resumes/Krishan_Sahu_Resume.docx
+!media/resumes/bert_resume.txt
+
+# ==============================================================================
+# Checkpoints & Notebook Artifacts
+# ==============================================================================
+data/raw/
+data/processed/
+notebooks/.ipynb_checkpoints/
+ml/models/bert_resume_matcher/checkpoint-*/
+ml/models/bert_resume_matcher/training_args.bin
+
+# ==============================================================================
+# IDEs & System Files
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

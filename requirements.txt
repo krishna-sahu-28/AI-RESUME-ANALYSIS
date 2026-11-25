@@ -1,0 +1,26 @@
+# ==============================================================================
+# AI Resume Analysis - Production Dependencies
+# ==============================================================================
+
+# Core Web Framework
+Django>=4.2,<6.0
+python-dotenv>=1.0.0
+asgiref>=3.7.0
+sqlparse>=0.5.0
+
+# Document Parsing & Text Extraction (.pdf, .docx, .txt)
+pypdf>=5.0.0
+python-docx>=1.1.0
+
+# Machine Learning & Numerical Computing (TF-IDF & Logistic Regression)
+numpy>=1.26.0
+scikit-learn>=1.4.0
+scipy>=1.12.0
+joblib>=1.3.0
+
+# Deep Learning & Neural Sentence Embeddings (Local BERT SentenceTransformer)
+torch>=2.0.0
+transformers>=4.40.0
+sentence-transformers>=3.0.0
+safetensors>=0.4.0
+huggingface-hub>=0.23.0

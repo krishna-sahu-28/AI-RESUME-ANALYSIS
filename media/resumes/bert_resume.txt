@@ -1,0 +1,5 @@
+Technical Skills:
+Python Django SQL
+
+Experience:
+Built web applications and REST APIs.
